@@ -1,0 +1,29 @@
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__links > :nth-child(n) {
+  margin-bottom: 32px;
+}
+
+.footer__links > :last-child {
+  margin-bottom: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__links {
+    flex-direction: row;
+  }
+
+  .footer__links > :nth-child(n) {
+    margin: 0 18px 0 0;
+  }
+
+  .footer__links > :last-child {
+    margin: 0;
+  }
+}
