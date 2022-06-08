@@ -5,7 +5,7 @@
   text-align: center;
   margin: 0;
   padding: 0 16px 33px 16px;
-  max-width: 360px;
+  max-width: 288px;
 }
 
 @media screen and (min-width: 768px) {
@@ -13,6 +13,7 @@
     padding: 0 204px 115px 204px;
     font-size: 18px;
     line-height: 22px;
+    max-width: 360px;
   }
 }
 

@@ -17,10 +17,6 @@
     grid-template-columns: minmax(340px, 1fr) minmax(352px, 1fr);
   }
 
-  .places__item:first-child > .places__title {
-    width: min-content;
-  }
-
   .places__item:last-child {
     padding-bottom: 90px;
   }
@@ -31,10 +27,6 @@
     column-gap: 32px;
     padding-bottom: 80px;
     grid-template-columns: minmax(440px, 1fr) minmax(456px, 1fr);
-  }
-
-  .places__item:last-child {
-    padding-bottom: 92px;
   }
 }
 
