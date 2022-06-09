@@ -1,9 +1,5 @@
 .cover {
-  overflow: hidden;
-}
 
-.cover:hover .cover__background {
-  opacity: 0.2;
 }
 
 @media screen and (min-width: 1280px) {
